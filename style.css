@@ -1,56 +1,104 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #4D148C;
-    padding: 10px 20px;
-    color: white;
-    height: 45px;
-    
-}
-.navbar .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #FF6600;
-}
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+body{
+
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.nav-links li {
-    display: inline;
-}
-.nav-links a {
-    text-decoration: none;
+
+.nav{
+
+   
+   
+    background-color: rgb(83, 201, 83);
+    height: 100px;
     color: white;
-    font-size: 16px;
-}
-.search-bar input {
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
-}
-.login-btn {
-    background-color: #FF6600;
-    color: white;
-    padding: 8px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
-.content {
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230616/pngtree-mobile-based-delivery-service-a-3d-render-concept-with-order-tracking-image_3607142.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 90.6vh; 
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.row1{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.css{
+
+    background-color:white;
+    height: 130px;
+    width: 450px;
+    border-radius: 15px;
+    padding: 20px;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+
+.box{
+
+    background-color:white;
+    box-shadow: 1px 1px 5px 1px grey;
+    height: 130px;
+    width: 450px;
+    border-radius: 15px;
+    padding: 20px;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.head{
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.resp{
+
+    background-color:white;
+    box-shadow: 1px 1px 5px 1px grey;
+    height: 130px;
+    width: 450px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+
+.foot{
+
+    background-color: black;
+    margin-top: 143px;
+    height: 75px;
+    color: tomato;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    margin-top: 30px;
+}
+
+
+p{
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
 }
